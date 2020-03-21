@@ -1,0 +1,78 @@
+@font-face{
+    src: url(../font/Abel/abel-regular.ttf);
+    font-family: 'Abel';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page-img{
+    background-image: url(../img/bg-img.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-page{
+    background: rgb(214,214,214);
+    color: black;
+    margin: 0 0 0 auto;
+    text-align: center;
+    padding-top: 20vh;
+    height: 100vh;
+    width: 45%;
+    font-family: 'Abel';
+}
+
+.evaluator{
+    border-radius: 5px;
+    background: rgb(214,214,214);
+    margin-top: 3%;
+    font-family: 'Abel';
+    color: black;
+    box-shadow: -10px -10px 20px 0 rgba(255,255,255, 0.7),
+                10px 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    font-family: 'Abel';
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: rgb(214,214,214);
+    box-shadow: -5px -5px 5px 0 rgba(255,255,255, 0.7),
+                5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    box-shadow: inset -5px -5px 5px 0 rgba(255,255,255, 0.7),
+                inset  5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button{
+    font-family: 'Abel';
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: rgb(214,214,214);
+    box-shadow: -5px -5px 5px 0 rgba(255,255,255, 0.7),
+                5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover{
+    box-shadow: inset -5px -5px 5px 0 rgba(255,255,255, 0.7),
+                inset  5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(214,214,214);
+}
+
+.title{
+    font-family: 'Abel';
+}
+
+.rank{
+    text-align: center;
+}
